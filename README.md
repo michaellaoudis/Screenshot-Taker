@@ -7,6 +7,10 @@ This tool looks through a list of URLs, takes full screenshots of web pages, and
 downloads target file types (PDF, XLSX, ZIP, CSV). It also supports authenticated
 sessions using Basic Auth and exported browser cookies.
 
+Dependencies:
+
+    pip3 install -r requirements.txt
+
 Usage:
 
     python3 screenshotter.py urls.txt [options]
