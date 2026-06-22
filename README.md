@@ -1,21 +1,24 @@
 # Screenshot-Taker
 
-Web App Screenshot & File Downloader
-Built by Michael Laoudis
+### Disclaimer
+
+This tool is provided for educational and authorized security testing purposes only. The author, Michael Laoudis, accepts no responsibility for misuse. Always obtain written permission before testing any target.
+
+<hr>
 
 This tool looks through a list of URLs, takes full screenshots of web pages, and
 downloads target file types (PDF, XLSX, ZIP, CSV). It also supports authenticated
 sessions using Basic Auth and exported browser cookies.
 
-Dependencies:
+### Dependencies:
 
     pip3 install -r requirements.txt
 
-Usage:
+### Usage:
 
     python3 screenshotter.py urls.txt [options]
 
-Examples:
+### Examples:
 
     # Basic run — screenshots saved to a timestamped folder
     python3 screenshotter.py urls.txt
